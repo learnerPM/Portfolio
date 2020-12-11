@@ -1,0 +1,65 @@
+//About Body
+#ab-img{
+    background: $quinary-color;
+    h2{
+        color: #f5f24c;
+    }
+}
+
+//Edu Body
+#edu-img{
+    background: $secondary-color;
+    .caption, .subCaption{
+      text-align: center;
+      text-decoration: underline snow;
+      color: $quaternary-color;
+      background: rgba(lighten($primary-color, 9), 0.5);  
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .scl-logo{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        img{
+
+        border-radius: 50%;
+        }
+    }
+    .lable{
+        color: $secondary-color;
+        width:30%;
+        height:auto;
+        padding-right: 8px;
+        font-size:20px;
+        text-align:right;
+        background: rgba(lighten($primary-color, 2), 0.7);
+    }
+    .field{
+        width:67%;
+        padding-left: 4px;
+        padding-right: 8px;
+        font-size:20px;
+        text-align:left;
+        color:white;
+        background: rgba(lighten($primary-color, 2), 0.7);
+    }
+}
+
+//Project Body
+#proj-img{
+    background: darken($ternary-color,9);
+    h2{
+        background: #f5f24c;
+    }
+}
+
+//Contact Body
+#cont-main{
+    background : $primary-color;
+    h2{
+        background: $secondary-color;
+    }
+}
